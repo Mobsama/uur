@@ -41,7 +41,7 @@ overrides:
       - wine
       - curl
       - pipewire-libs
-      - libwayland-client
+      - "libwayland-client.so.0()(64bit)"
       - xdg-desktop-portal
     recommends:
       - ethtool
